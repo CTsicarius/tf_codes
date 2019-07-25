@@ -34,8 +34,8 @@ def compute_cost(log_probs, Y):
 
 #=============================================================================================
 (x_train, y_train),(x_test, y_test) = datasets.cifar10.load_data()
-x_train = x_train[0:50000]
-y_train = y_train[0:50000]
+x_train = x_train[0:20000]
+y_train = y_train[0:20000]
 
 
 x_train = x_train / 255
